@@ -4,91 +4,45 @@ function App() {
   return (
     <>
     <header>
-      <div>
-        logo
+      <div className='logo'>
+        PIGAORDER
       </div>
-      <div>
+      
         <a href="">Home</a>
         <a href="">Products</a>
         <a href="">Shop here</a>
         <a href="">Login/Register</a>
         
-      </div>
+      
     </header>
-    <section>
-      <h1>SHOW WITH US.PIGA IYO ORDER </h1>
+    
+    <section className='hero'>
+      <h1>SHOP WITH US! PIGA IYO ORDER </h1>
       <h2>Your one-stop shop for the best deals, top-quality products, and hassle-free shopping!</h2>
       <p>Shop Smart, Save More . Enjoy unbeatable discounts, flash sales, and exclusive offers.</p>
       <button>🛍️ Start Shopping Now</button>
       <button>🔥 Explore Hot Deals</button>
       <button>🚀 Order in Seconds</button>
     </section>
-    <section>
+    <section className='products'>
       <h2>🛒 Discover Our Best-Selling Products</h2>
       <h3>Handpicked just for you! Quality, Variety, and Unbeatable Prices!</h3>
-      <h3>1.FEATURED PRODUCTS</h3>
-      <div>
-        <img src="https://picsum.photos/200/300" alt="product1"></img>
-        <h3>Product 1</h3>
+     
+      <h3>FEATURED PRODUCTS</h3>
+      <div className='product-container'>
+      <img src="src/assets/laptop.jpg" alt="product1"></img>
+       
+       <h3>Product 1</h3>
 
-        <p>Price: $10.99</p>
-        <p>product description</p>
-        <button>Add to Cart</button>
-
-      </div>
-      <h3>🔥 Trending</h3>
-      <div>
-        <img src="https://picsum.photos/200/300" alt="product1"></img>
-        <h3>Product 1</h3>
-
-        <p>Price: $10.99</p>
-        <p>product description</p>
-        <button>Add to Cart</button>
-
-      </div>
-      <h3>🚀 New Arrivals</h3>
-      <div>
-        <img src="https://picsum.photos/200/300" alt="product1"></img>
-        <h3>Product 1</h3>
-
-        <p>Price: $10.99</p>
-        <p>product description</p>
-        <button>Add to Cart</button>
-
-      </div>
-      <h3>Most purchased</h3>
-      <div>
-        <img src="https://picsum.photos/200/300" alt="product1"></img>
-        <h3>Product 1</h3>
-
-        <p>Price: $10.99</p>
-        <p>product description</p>
-        <button>Add to Cart</button>
-
-      </div>
-      <h3>Promotion Offers</h3>
-      <div>
-        <img src="https://picsum.photos/200/300" alt="product1"></img>
-        <h3>Product 1</h3>
-
-        <p>Price: $10.99</p>
-        <p>product description</p>
-        <button>Add to Cart</button>
+       <p>Price: $10.99</p>
+       <p>product description</p>
+       <button>Add to Cart</button>
 
       </div>
       
-    </section>
-    <section>
-      <h1>Limited Time Offers</h1>
-      <div>
-        <img src="https://picsum.photos/200/300" alt="product1"></img>
-        <h3>Product 1</h3>
-
-        <p>Price: $10.99</p>
-        <p>product description</p>
-        <button>Add to Cart</button>
-
-      </div>
+      
+      
+      
 
     </section>
     <section>
@@ -127,9 +81,25 @@ function App() {
       <p>3️⃣ Fast Delivery to Your Doorstep  Sit back and relax while we deliver straight to you!</p>
       <button>🔥 Explore Deals Today</button>
     </section>
-    <footer>
+    
+    <footer className='footer'>
+      <a href="">Shop</a>
+      <a href="">Customer Service</a>
+      <a href="">About Us</a>
+      <h2>Contact us:</h2>
+      <p>Phone: 123-456-7890</p>
+      <p>Email: support@pigaorder.com</p>
+      <p>Address: P.O. Box 1234, Nairobi, Kenya</p>
+      <a href="">Twitter</a>
+      <a href="">LinkedIn</a>
+      <a href="">Tiktok</a>
+      <a href="">Facebook</a>
       
+      <button>Youtube</button>
+      <p>&copy; 2025 Piga Order. All rights reserved.</p>
+      <li>Terms and Conditions</li>
     </footer>
+    
 
     </>
     
